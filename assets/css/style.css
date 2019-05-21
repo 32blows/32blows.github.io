@@ -59,4 +59,8 @@ h2 {
   .home img {
     height: 420px;
   }
+
+  .book-title {
+    font-size: 2rem;
+  }
 }
