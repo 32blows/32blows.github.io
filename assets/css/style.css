@@ -58,6 +58,7 @@ h2 {
 @media only screen and (max-width: 760px) {
   .home img {
     height: 420px;
+    opacity: 0.2;
   }
 
   .book-title {
