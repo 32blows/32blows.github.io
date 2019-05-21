@@ -1,0 +1,62 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Arial GEO', sans-serif;
+  min-height: 100vh;
+}
+
+.home {
+  overflow: hidden;
+}
+
+.home img {
+  display: block;
+  height: 600px;
+  width: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+i.menu-icon {
+  color: #212121;
+}
+
+.content {
+  margin: 50px 0;
+}
+
+p:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.index-nav li:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.index-nav a {
+  font-size: 1.3rem;
+}
+
+.book-title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.brand-logo {
+  font-size: 1.6rem !important;
+}
+
+@media only screen and (max-width: 760px) {
+  .home img {
+    height: 420px;
+  }
+}
