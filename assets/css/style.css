@@ -5,10 +5,9 @@ html {
 body {
   font-family: 'Arial GEO', sans-serif;
   min-height: 100vh;
-}
-
-.home {
-  overflow: hidden;
+  height: 100%;
+  position: relative;
+  padding: 10px;
 }
 
 .home img {
